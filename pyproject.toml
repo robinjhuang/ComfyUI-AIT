@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-ait"
+description = "Use Facebook Meta's AITemplate repo for faster inference using cpp/cuda."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["aitemplate"]
+
+[project.urls]
+Repository = "https://github.com/FizzleDorf/ComfyUI-AIT"
+
+#  Used by Comfy Registry https://comfyregistry.org
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-AIT"
+Icon = ""
